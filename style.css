@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  background-color: #6897b0;
+  width: 100%;
+  height: 70px;
+  color: white;
+  position: fixed;
+  margin-top: 2px;
+}
+.logo {
+  float: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  margin-top: 3px;
+}
+.navbar .logo h2 {
+  margin-top: -43px;
+  margin-left: 60px;
+}
+.logo img {
+  height: 60px;
+}
+.navbar h2 {
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.menu {
+  margin-left: 800px;
+  padding-top: 27px;
+}
+
+.menu ul li {
+  list-style: none;
+  margin-right: 50px;
+  display: inline-block;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+.menu ul li a:hover {
+  color: #afd0bf;
+  font-style: italic;
+}
+.banner {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px rgba(88, 71, 71, 0.9);
+}
+
+.banner img {
+  margin-top: 70px;
+  height: 500px;
+  background-position: center;
+  text-align: center;
+}
+.banner button {
+  margin-top: 60px;
+  padding: 10px;
+  width: 150px;
+  border-radius: 50px;
+  border: none;
+  background-color: #6897b0;
+  color: white;
+}
+.banner button:hover {
+  background-color: #afd0bf;
+  border: 1px solid white;
+  color: white;
+}
+.banner h1 {
+  margin-top: -400px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 90px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(88, 71, 71, 0.9);
+}
+
+.destinasi-wisata {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.box-kiri img {
+  height: 120px;
+  width: 200px;
+}
+.box-tengah img {
+  height: 120px;
+  width: 200px;
+}
+.box-kanan img {
+  height: 120px;
+  width: 200px;
+}
+.box-kanan2 img {
+  height: 120px;
+  width: 200px;
+}
+
+.box-kiri,
+.box-tengah,
+.box-kanan,
+.box-kanan2 {
+  width: 220px;
+  height: 270px;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 30px 30px;
+  margin: 70px 20px 20px 55px;
+  border-radius: 10px;
+  float: left;
+}
+.box-kiri:hover,
+.box-tengah:hover,
+.box-kanan:hover,
+.box-kanan2:hover {
+  background-color: #6897b0;
+  color: white;
+}
+.destinasi-wisata h3,
+p {
+  margin-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 13px;
+  padding: 0px 20px;
+}
+.destinasi-wisata p {
+  font-size: 13px;
+}
+.penginapan {
+  text-align: center;
+}
+.penginapan h1 {
+  margin-top: 490px;
+}
+.penginapan-content {
+  width: 325px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 90px;
+  float: left;
+}
+.penginapan-content img {
+  width: 100%;
+  height: 280px;
+}
+.penginapan-content h3 {
+  padding-top: 10px;
+  font-size: 23px;
+  margin-bottom: 8px;
+  font-family: sans-serif;
+}
+.penginapan-content p {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.3;
+}
+.penginapan-content .btn {
+  display: inline-block;
+  padding: 8px 18px;
+  background-color: #333;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 16px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.penginapan-content .btn:hover {
+  background-color: #6897b0;
+}
+
+.review {
+  text-align: center;
+  padding-top: 670px;
+}
+.box-review {
+  width: 250px;
+  height: 130px;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 20px 20px;
+  margin: 50px 20px 20px 55px;
+  border-radius: 8px;
+  float: left;
+  align-items: center;
+  box-shadow: #666;
+}
+.box-review h3 {
+  font-size: 25px;
+}
+.box-review p {
+  padding-top: 10px;
+  font-size: 14px;
+}
+.footer {
+  background-color: rgb(57, 55, 55);
+  width: 100%;
+  height: 40px;
+  align-content: center;
+  text-align: center;
+  color: white;
+  padding: 3px;
+  margin: 50px auto 0px;
+}
